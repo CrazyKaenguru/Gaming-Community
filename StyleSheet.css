@@ -1,0 +1,85 @@
+﻿body
+{
+    background-color:black;
+    
+}
+div1 {
+    display: flex;
+    background: white;
+    padding: 40px;
+}
+div2 {
+     display: flex;
+    background: white;
+    padding: 15px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: Distant Galaxy;
+    text-align: center;
+}
+.home_button {
+    font-size: 40px;
+    transform: translateX(900px);
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: Distant Galaxy;
+}
+.home_button:hover {
+    background: orange;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+
+}
+.about {
+    color: white;
+    font-family:Arial; 
+    font-size:40px;
+}
+@keyframes myAnimation {
+    0%{
+        background-color: white;
+        
+        left:0px;
+        
+    }
+    50%{
+        background-color:black;
+       
+        left: 1200px;
+        
+    }
+    100% {
+        background-color: white;
+        left: 0px;
+    }
+
+}
+div2{
+    animation-name: myAnimation;
+    animation-duration:2s;
+    position:relative;
+    width:20px;
+    height:20px;
+    transform:translateY(-40px)
+}
+.about_first_line {
+    display: flex;
+    background: white;
+    padding: 20px;
+    color: darkorange;
+    font-size: 40px;
+    font-family: 'Distant Galaxy';
+}
