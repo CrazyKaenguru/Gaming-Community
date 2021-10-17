@@ -21,7 +21,7 @@ h1 {
 }
 .home_button {
     font-size: 40px;
-    transform: translateX(900px);
+    transform: translateX(400px);
     display: block;
     background: black;
     color: white;
@@ -42,6 +42,31 @@ h2 {
     font-family: Arial;
     text-align: center;
 
+}
+.Join_button {
+    font-size: 40px;
+    transform: translateX(1100px);
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: Distant Galaxy;
+}
+
+    .Join_button:hover {
+        background: orange;
+    }
+
+h2 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
 }
 .about {
     color: white;
