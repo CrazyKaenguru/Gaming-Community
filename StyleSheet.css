@@ -78,27 +78,40 @@ h2 {
         background-color: white;
         
         left:0px;
-        
+        top:0px;
     }
-    50%{
-        background-color:black;
-       
+    25% {
+        background-color: white;
         left: 1200px;
-        
+        top:0px;
+       
+    }
+    50% {
+        background-color: white;
+        left: 1200px;
+        top: -110px
+    }
+    75% {
+        background-color: white;
+        left: 0px;
+        top: -110px
     }
     100% {
         background-color: white;
         left: 0px;
+        top: 0px
     }
 
 }
-div2{
+div2 {
     animation-name: myAnimation;
-    animation-duration:2s;
-    position:relative;
-    width:20px;
-    height:20px;
-    transform:translateY(-40px)
+    animation-duration: 4s;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transform: translate(100px,-40px);
+    animation-iteration-count: infinite;
+    border-radius: 30px;
 }
 .about_first_line {
     display: flex;
@@ -107,4 +120,11 @@ div2{
     color: darkorange;
     font-size: 40px;
     font-family: 'Distant Galaxy';
+}
+footer {
+    display: flex;
+    background: white;
+    padding: 30px;
+    font-size: 20px;
+    font-family:Arial;
 }

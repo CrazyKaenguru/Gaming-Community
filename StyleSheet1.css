@@ -69,3 +69,10 @@ h2 {
 .Join_button_DC:hover {
     background: orange;
 }
+footer {
+    display: flex;
+    background: white;
+    padding: 30px;
+    font-size: 20px;
+    font-family: Arial;
+}
